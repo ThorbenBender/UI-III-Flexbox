@@ -96,6 +96,9 @@ nav a:hover {
 	animation-name: skale;
 	animation-duration: 3000000s;
 }
+nav a:last-child:hover{
+    animation: none;
+}
 @keyframes skale {
 	0% {transform: scale3d(1.2, 1.2, 1.2);}
 	100% {transform: scale3d(1.2, 1.2, 1.2);}
